@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+*{
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Poppins', sans-serif;
+}
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #3F979B;
+}
+.container{
+      background-color: white;
+      width: 450px;
+      border: 1px solid white;
+      border-radius: 5px;
+}
+.form-content{
+      padding:  40px 30px;
+}
+header{
+      font-size: 35px;
+      font-weight: 800;
+      color: #205E61;
+      text-align: center;
+}
+form{
+      margin-top: 20px;
+}
+.field{
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+      margin-bottom: 25px;
+}
+.field input{
+      width: 96%;
+      padding-left: 10px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #0f2f31;
+      height: 100%; 
+}
+.form-link {
+      text-align: center;
+      
+}
+.form-link a{
+      font-size: 15px;
+      color: #3F979B;
+      text-decoration: none;
+
+}
+.button-field button{
+      width: 100%;
+      margin-top: 15px;
+      font-size: 19px;
+      margin-bottom: 15px;
+      font-weight: 400;
+      padding: 7px 0px;
+      border:1px solid #F9F54B;
+      border-radius: 5px;
+      color:#0f2f31;
+      background-color: #F9F54B;
+}
+
+.form-link span{
+      margin-top: 15px;
+      font-size: 15px;
+      color: #0f2f31;
+}
+.form-link .signup{
+      font-size: 15px;
+      font-weight: 400;
+      color: #3F979B;
+}
+.line{
+      width: 100%;
+      height: 1px;
+      position: relative;
+      background-color: #3d5454;
+      margin: 36px 0;
+}
+.line::before{
+      content:"Or";
+      position:absolute;
+      left: 50%;
+      top: 0%;
+      transform: translate(-50%,-50%);
+      background-color: white;
+      padding: 0px 15px;
+
+}
+.media{
+      margin-top: 10px;
+}
+.media-buttons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+.media-buttons a{
+      width: 100%;
+      position: relative;
+      margin-top: 15px;
+      font-size: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+      font-weight: 400;
+      padding: 10px 0px;
+      font-size: 16px;
+      border-radius: 5px;
+}
+.facebook-btn{
+      text-decoration: none;
+      color: white;
+      background-color: #66b5f2;
+      border:1px solid #8267ec;
+}
+.fa-facebook{
+      position: absolute;
+      left: 20px;
+      top: 20%;
+      font-size: 25px;
+     
+}
+.google-btn{
+      text-decoration: none;
+      color: black;
+      background-color: white;
+      border:1px solid #1b1b1b;
+}
+.google-icon{
+      position: absolute;
+      left: 20px;
+      font-size: 30px;
+      top: 20%;
+      width: 30px;
+      height: 30px;
+     
+}
